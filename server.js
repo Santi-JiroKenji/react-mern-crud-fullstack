@@ -22,9 +22,9 @@ app.use(
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.json("server stated");
-});
+// app.get("/", (req, res) => {
+//   res.json("server stated");
+// });
 
 app.use(cors());
 app.use("/api/v1/students", router);
